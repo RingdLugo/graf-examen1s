@@ -1,5 +1,65 @@
-/* Estilos para la imagen */
-#image {
-    transition: all 0.3s ease;
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e3e3e3;
+    margin: 0;
+    padding: 50px;
 }
 
+.container {
+    background: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+h1 {
+    color: #222;
+    font-size: 22px;
+}
+
+img {
+    width: 120px;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+h3 {
+    color: #444;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+b {
+    color: #222;
+}
